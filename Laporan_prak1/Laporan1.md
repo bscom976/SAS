@@ -69,3 +69,41 @@ sudo lxc-ls -f
 ```
 ![cek](https://github.com/bscom976/SAS/blob/af7acabba5c792b711b47e597ae8e8c29b9f3043/Laporan_prak1/Asset/cek%20debian.png)
 
+### 3. setup nginx pada debian_php5.6 untuk domain http://lxc_php5.dev , buat halaman index.html yang menerangkan informasi nama lxc
+
+jalankan contrainers debian_php5.6 dan masuk ke debian_php5.6
+```
+sudo lxc-start -n debian_php5.6
+sudo lxc-attach -n debian_php5.6
+```
+![msk](https://github.com/bscom976/SAS/blob/1eb8cbb0da9b7cc3b541586d96c39620313fca32/Laporan_prak1/Asset/Msuk%20debian.jpg)
+Install nginx
+```
+sudo apt install nginx nginx-extras
+```
+![nginx](https://github.com/bscom976/SAS/blob/a3ad66ae2fe94467bdafcd3e233f5ace1a3244c4/Laporan_prak1/Asset/nginx.jpg)
+install tools
+```
+sudo apt install nano net-tools curl
+```
+![tools](https://github.com/bscom976/SAS/blob/3739e285deeec32f05bb0222c6d70b3d746a1765/Laporan_prak1/Asset/tools.jpg)
+
+ubah Ip ke 10.0.3.102 
+source :
+```
+nano /etc/network/interfaces
+```
+![ipdebian](https://github.com/bscom976/SAS/blob/cf8a2f60602bf14d02b1f220ad6305efcb9773fa/Laporan_prak1/Asset/ubah%20ip%20debian.jpg)
+restart debian dan cek Ip 
+```
+sytemctl restart networking.service
+ifconfig
+exit
+sudo lxc-ls -f
+```
+![ceki](https://github.com/bscom976/SAS/blob/189282430e32e530e6b8140fe40faf1b2ed27eb8/Laporan_prak1/Asset/restart.jpg)
+bila alamat ip double reboot
+```
+reboot
+```
+![re](https://github.com/bscom976/SAS/blob/85cfc4786badefb98474075aef16b0dcac0a9226/Laporan_prak1/Asset/reboot.jpg)
