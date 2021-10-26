@@ -112,3 +112,12 @@ bila alamat ip double reboot
 reboot
 ```
 ![re](https://github.com/bscom976/SAS/blob/85cfc4786badefb98474075aef16b0dcac0a9226/Laporan_prak1/Asset/reboot.jpg)
+
+setting nginx dan buat file lxc_php5.6.dev
+```
+cd /etc/nginx/sites-available
+touch lxc_php5.6.dev
+nano lxc_php5.6.dev
+```
+![set](https://github.com/bscom976/SAS/blob/da29fc91e7e42cb3d433dc16ed984179b78e608f/Laporan_prak1/Asset/Buat%20file.jpg)
+
