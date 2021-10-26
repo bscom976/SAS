@@ -121,3 +121,6 @@ nano lxc_php5.6.dev
 ```
 ![set](https://github.com/bscom976/SAS/blob/da29fc91e7e42cb3d433dc16ed984179b78e608f/Laporan_prak1/Asset/Buat%20file.jpg)
 
+konfigurasi
+![konf](https://github.com/bscom976/SAS/blob/ac001c457fbdf81b4b78c7bc74cd850f8537dad3/Laporan_prak1/Asset/konfigurasi%20debian.jpg)
+
