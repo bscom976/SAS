@@ -132,7 +132,21 @@ ln -s /etc/nginx/sites-available/lxc_php5.6.dev
 ```
 ![enap](https://github.com/bscom976/SAS/blob/ab2fcb83418f51def5a60bb6a3f7de35a4b3b63a/Laporan_prak1/Asset/Sites%20enabled.jpg)
 
-masuk ke hots dan konfigurasi
+masuk ke hots dan konfigurasi menambahakan lxc_php5.6.dev
 ```
+nano /etc/hosts
+```
+![msk+host](https://github.com/bscom976/SAS/blob/a0569e53798ef41734885e5123180dbbd17807b5/Laporan_prak1/Asset/hosts.jpg)
 
+![+hosts](https://github.com/bscom976/SAS/blob/a0569e53798ef41734885e5123180dbbd17807b5/Laporan_prak1/Asset/hosts%202.jpg)
+
+masuk ke direktori html 
 ```
+cd /var/www/html
+mkdir lxc_php5.6
+cp index.nginx-debian.html lxc_php5.6/index.html
+nano lxc_php5.6/index.html
+```
+![Html](https://github.com/bscom976/SAS/blob/13c08774ac1608c5b993756fd21788c260c8efb7/Laporan_prak1/Asset/index.html.jpg)
+
+![HTML](https://github.com/bscom976/SAS/blob/ee298790e525ada8d7485d7a1e349f03500fdf32/Laporan_prak1/Asset/HTML.jpg)
