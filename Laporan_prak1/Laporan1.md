@@ -150,3 +150,58 @@ nano lxc_php5.6/index.html
 ![Html](https://github.com/bscom976/SAS/blob/13c08774ac1608c5b993756fd21788c260c8efb7/Laporan_prak1/Asset/index.html.jpg)
 
 ![HTML](https://github.com/bscom976/SAS/blob/ee298790e525ada8d7485d7a1e349f03500fdf32/Laporan_prak1/Asset/HTML.jpg)
+
+### 4. Setup nginx pada ubuntu_landing untuk domain http://lxc_landing.dev , buat halaman index.html yang menerangkan informasi nama lxc
+
+Setting file lxc_landing seperti dibawah 
+![landinf](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/lxc_landing.jpg)
+
+tambah lxc_landing.dev pada hosts
+
+![lanhosts](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/Host.jpg)
+
+masuk ke direktori html
+![1](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/direktori%20html.jpg)
+![2](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/html.jpg)
+
+### 5. LXC ubuntu_landing harus auto start ketika vm dinyalakan, hal ini digunakan untuk menjaga agar website company profile tidak mengalami downtime
+Stop ubuntu_landing
+```
+sudo stop -n ubuntu_landing
+```
+![stopq](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/Stop.jpg)
+masuk ke ubuntu_landing
+```
+sudo su
+cd /var/lib/lxc
+cd ubuntu_landing
+```
+![sudosu](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/sudo.jpg)
+
+kemudian pergi ke config lalu tambahkan ```lxc.start.auto = 1 ```
+```
+nano config
+lxc.start.auto = 1
+```
+![nanoconfig](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/config.jpg)
+![auto](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/ubuntu_landing.jpg)
+
+reboot dan cek
+```
+reboot
+sudo lxc-ls -f
+```
+![Reboot](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/Reboot.jpg)
+![Lxc-ls](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/cek.jpg)
+
+### 6. Setup nginx pada vm.local untuk mengatur proxy_pass
+masuk ke host vm.local
+```
+sudo nano /etc/hosts
+```
+![vm.local]()
+masuk ke direktori sites-available, lalu masuk ke vm.local
+![sites-av]()
+Setingg sepeti gamabar dibawah
+![set]()
+
