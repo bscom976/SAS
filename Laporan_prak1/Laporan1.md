@@ -161,6 +161,7 @@ tambah lxc_landing.dev pada hosts
 ![lanhosts](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/Host.jpg)
 
 masuk ke direktori html
+
 ![1](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/direktori%20html.jpg)
 ![2](https://github.com/bscom976/SAS/blob/eae1f155b93a81d9022a6ea24b769e6c0b5cdfdf/Laporan_prak1/Asset/Ubuntu%20landing%20setting/html.jpg)
 
