@@ -125,3 +125,14 @@ konfigurasi
 
 ![konf](https://github.com/bscom976/SAS/blob/ac001c457fbdf81b4b78c7bc74cd850f8537dad3/Laporan_prak1/Asset/konfigurasi%20debian.jpg)
 
+masuk ke sites-enabled
+```
+cd ../sites-enabled
+ln -s /etc/nginx/sites-available/lxc_php5.6.dev
+```
+![enap](https://github.com/bscom976/SAS/blob/ab2fcb83418f51def5a60bb6a3f7de35a4b3b63a/Laporan_prak1/Asset/Sites%20enabled.jpg)
+
+masuk ke hots dan konfigurasi
+```
+
+```
