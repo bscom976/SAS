@@ -213,3 +213,13 @@ Setingg sepeti gamabar dibawah
 ### 7. untuk kebutuhan presentasi mereka, browser di laptop mereka harus dapat mengakses ketiga url tersebut.
 
 cek di browser
+![vm](https://github.com/bscom976/SAS/blob/02c944d8a9e3a3fa73ca3b0348a80b6ca7766503/Laporan_prak1/Asset/Proxy/Website/Vm.local.jpg)
+
+![blog](https://github.com/bscom976/SAS/blob/02c944d8a9e3a3fa73ca3b0348a80b6ca7766503/Laporan_prak1/Asset/Proxy/Website/blog.jpg)
+
+![app](https://github.com/bscom976/SAS/blob/02c944d8a9e3a3fa73ca3b0348a80b6ca7766503/Laporan_prak1/Asset/Proxy/Website/app.jpg)
+
+sever tidak bisa di akses dan tidak tau penyebabnya
+
+### 8. Analisis Praktikum
+####
