@@ -222,4 +222,11 @@ cek di browser
 sever tidak bisa di akses dan tidak tau penyebabnya
 
 ### 8. Analisis Praktikum
-####
+#### *mengapa untuk kebutuhan php5.6 tidak bisa menggunakan ubuntu 16.04, sehingga perlu diganti os ke debian 9
+karena ubuntu 16.04 sudah tidak di support oleh sistem, update ubuntu 16.04 terakhir pada april 2021 kemarin,
+sedangan debian bisa di support oleh sistem sampai dengan tahun 2022
+#### *kenapa harus menggunakan virtualisasi LXC pada skema website yang akan didevelop
+karena virtualisasi dari lxc tegolong ringan untuk perangat dan efisien tanpa perlu perngkat lain lagi cukup satu
+perangkat, biaya bisa di minimalis
+#### *apa yang dimaksud dengan proxy server? kenapa vm.local bisa kita anggap sebagai proxy server?
+Proxy server (peladen proxy) adalah sebuah komputer server atau program komputer yang dapat bertindak sebagai komputer lainnya untuk melakukan request terhadap content dari Internet atau intranet. karena vm.local di konfigurasikan bisa mengakses web yang ada di komputer server, walupun praktikum konfigurasinya gagal dan tidak bisa tersambung ke website
