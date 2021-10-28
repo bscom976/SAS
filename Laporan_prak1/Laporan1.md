@@ -200,9 +200,12 @@ masuk ke host vm.local
 ```
 sudo nano /etc/hosts
 ```
-![vm.local]()
+![vm.local](https://github.com/bscom976/SAS/blob/11d44830895982100cea274cd89c461f1b64c37f/Laporan_prak1/Asset/Proxy/Host.jpg)
 masuk ke direktori sites-available, lalu masuk ke vm.local
-![sites-av]()
+![sites-av](https://github.com/bscom976/SAS/blob/11d44830895982100cea274cd89c461f1b64c37f/Laporan_prak1/Asset/Proxy/Sites.jpg)
 Setingg sepeti gamabar dibawah
-![set]()
+![set](https://github.com/bscom976/SAS/blob/11d44830895982100cea274cd89c461f1b64c37f/Laporan_prak1/Asset/Proxy/vm.local.jpg)
 
+### 7. untuk kebutuhan presentasi mereka, browser di laptop mereka harus dapat mengakses ketiga url tersebut.
+
+cek di browser
