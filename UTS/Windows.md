@@ -96,4 +96,17 @@ Kelas : IT-02-01
 8. Tunggu installs
 ![9](https://github.com/bscom976/SAS/blob/3699d47bd4388e876eceb209b4e894599a65a644/UTS/Asset%20Uts/2b/9.jpg)
 
-### C.
+### c Instalasi DNS server
+lakukan langkah yang sama pada no 2 b, Pada di select server roles centang ```DNS Server``` lalu klik ```add feature```
+![2](https://github.com/bscom976/SAS/blob/fdbe5f9a7bb6748708f38cac7324f7066c747ce4/UTS/Asset%20Uts/dns.jpg)
+
+![1](https://github.com/bscom976/SAS/blob/fdbe5f9a7bb6748708f38cac7324f7066c747ce4/UTS/Asset%20Uts/dns%202.jpg)
+
+### d Instalasi Net Framework 3.5
+lakukan langkah yang sama pada no 2 b, Pada di select Feature centang ```Net Framework 3.5```
+![1](https://github.com/bscom976/SAS/blob/fdbe5f9a7bb6748708f38cac7324f7066c747ce4/UTS/Asset%20Uts/3.5.jpg)
+
+![2](https://github.com/bscom976/SAS/blob/fdbe5f9a7bb6748708f38cac7324f7066c747ce4/UTS/Asset%20Uts/3.5%201.jpg)
+
+setalah berhasil maka ada fitur di dalam server manager
+![2](https://github.com/bscom976/SAS/blob/866de3654c95c1d19eca880b9a756a4df024acd3/UTS/Asset%20Uts/sucses.jpg)
