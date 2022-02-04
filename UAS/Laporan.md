@@ -105,15 +105,19 @@ file templates ```my.cnf```
 create file ``` taks/main.yml, handlers/main.yml, templates/pma.local  in roles/pma
 
 file  Tasks``` main.yml```
+
 ![9](https://github.com/bscom976/SAS/blob/1dae597db2f9361f48f2ff60f410dac45d7da59e/UAS/Asset/PMA_tasks.png)
 
 file handlers```main.yml```
+
 ![10](https://github.com/bscom976/SAS/blob/1dae597db2f9361f48f2ff60f410dac45d7da59e/UAS/Asset/PMA_handlers.png)
 
 file templates ```pma.local```
+
 ![11](https://github.com/bscom976/SAS/blob/1dae597db2f9361f48f2ff60f410dac45d7da59e/UAS/Asset/PMA_templates.png)
 
 cek in browser
+
 ![php](https://github.com/bscom976/SAS/blob/5f8a694891ac6602e7469181f643e2a45e4bf35e/UAS/Asset/Phpmyadmin.jpg)
 
 ![php1](https://github.com/bscom976/SAS/blob/5f8a694891ac6602e7469181f643e2a45e4bf35e/UAS/Asset/Phpmyadmin1.jpg)
@@ -138,6 +142,7 @@ create file for install maria db
 setting domain 
 create file  ``` kelompok2.fpsas news.kelompok2.fpsas ```
 ![domain](https://github.com/bscom976/SAS/blob/45eeac0dde28b1fa622d82e27bae7e2768e576d6/UAS/Asset/kelompok2fpsas.jpg)
+
 
 kelompok2.fpsas
 ```
@@ -192,8 +197,9 @@ server {
                 proxy_pass http://utama;
         }
 }
-
+```
 news.kelompok2.fpsas
+
 ```
 upstream wordpress {
         ip_hash;
